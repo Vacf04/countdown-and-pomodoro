@@ -5,7 +5,7 @@ const clockText = document.querySelector('.clock span');
 let hours = 0;
 let minutes = 0;
 let seconds = 0;
-let countdown;
+let stopwatch;
 
 startButton.addEventListener('click', (e) => {
   if(e.target.classList.contains("started")) {
@@ -41,12 +41,11 @@ function timer () {
 
 function start() {
   startButton.classList.add("started");
-  countdown = setInterval(timer, 1000);
-  displayButtonText("PAUSE");
+  stopwatch = displayButtonText("PAUSE");
 };
 
 function pause() {
-  clearInterval(countdown);
+  clearInterval(stopwatch);
   displayButtonText("START");
 };
 
