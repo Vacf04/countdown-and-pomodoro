@@ -66,7 +66,7 @@ function startPomodoro(timer, initialMinutes, initialSeconds) {
   minutes = initialMinutes;
   seconds = initialSeconds;
   editButton('started', 'PAUSE')
-  pomodoro = setInterval(timer, 1);
+  pomodoro = setInterval(timer, 1000);
 }
 
 function pausePomodoro() {

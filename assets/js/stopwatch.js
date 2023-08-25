@@ -41,7 +41,19 @@ function timer () {
 
 function start() {
   startButton.classList.add("started");
-  stopwatch = displayButtonText("PAUSE");
+  stopwatch = setInterval(() => {
+    seconds++;
+  if (seconds === 60) {
+    seconds = 0;
+    minutes++;
+  }
+  if (minutes === 60) {
+    minutes = 0;
+    hours++;
+  }
+  displayClockText();
+  }, 1000);
+  displayButtonText("PAUSE");
 };
 
 function pause() {
