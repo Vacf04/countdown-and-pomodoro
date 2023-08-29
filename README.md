@@ -8,3 +8,4 @@ I made that in my learning journey in front end programming, if you have some ti
 -> Start and reset button on stopwatch app.
 
 -> Notification sound on pomodoro app.
+![Capturar](https://github.com/Vacf04/stopwatch-and-pomodoro/assets/89648256/fcf36797-9935-4e0a-8a07-65726b2b2215)
