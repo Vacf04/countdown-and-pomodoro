@@ -1,11 +1,21 @@
 # STOPWATCH AND POMODORO
-A stopwatch and a pomodoro app in web-browser made with pure html, css and javascript.
 
-I made that in my learning journey in front end programming, if you have some tips for me i will be very grateful.
-# FEATURES
--> Responsive nav bar, with button to change to stopwatch or pomodoro.
+Aplicativo web de pomodo e cronometro, podendo alterar a funcionalidade pelo menu, com um design simples e bonito.
 
--> Start and reset button on stopwatch app.
+## FEATURES
 
--> Notification sound on pomodoro app.
-![Capturar](https://github.com/Vacf04/stopwatch-and-pomodoro/assets/89648256/fcf36797-9935-4e0a-8a07-65726b2b2215)
+- Menu responsivo.
+- Pomodoro com start e pause.
+- Cronometro com start, pause e reset.
+
+## MOBILE
+
+![mobile](https://github.com/Vacf04/stopwatch-and-pomodoro/assets/89648256/23bfeabd-47ea-491a-8583-6bb992d4a959)
+
+## PC 
+
+![pc](https://github.com/Vacf04/stopwatch-and-pomodoro/assets/89648256/b1fadc2e-29e5-4b31-9014-165fbac4e20b)
+
+
+
+
